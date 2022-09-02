@@ -1,0 +1,19 @@
+{
+    "env":{
+        "BASE_URL": "https://front.serverest.dev/login",
+        "BASE_URL_BACK": "https://serverest.dev"
+    },
+    "reporter": "mochawesome",
+    "reporterOptions": {
+       
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": true,
+        "html": false,
+        "json": true,
+        "timestamp": "yyyymmdd_HHMMss",
+        "cdn": true,
+        "charts":true,
+        "video": false
+        
+    }
+}
